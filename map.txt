@@ -1,0 +1,15 @@
+Memory Addresses from map.c:
+---------------------------
+Address of main:      0x59ebe11e11a9  (Code Segment)
+Address of recur:     0x59ebe11e12eb  (Code Segment)
+Address of stuff:     0x59ebe11e4010  (Initialized Data)
+Address of foo:       0x59ebe11e4018  (BSS - Uninitialized Data)
+Address of heap buf1: 0x59ec0b1fb2a0  (Heap)
+Address of heap buf2: 0x59ec0b1fb310  (Heap)
+Address of stack var: 0x7ffd3da83d04  (Stack)
+
+Stack Growth:
+The stack grows DOWN (toward smaller addresses) on this system. 
+
+Heap Growth:
+The heap grows UP (toward larger addresses), as buf2 is at a higher address than buf1.

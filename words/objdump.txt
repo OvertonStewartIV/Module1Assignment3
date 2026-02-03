@@ -1,0 +1,13 @@
+File Format: elf64-x86-64
+Architecture: i386:x86-64
+
+Sections:
+.text:   VMA 0000000000001130, Size 000007da
+.rodata: VMA 0000000000002000, Size 000000ce
+.data:   VMA 0000000000004000, Size 000000a0
+.bss:    VMA 00000000000040a0, Size 00000028
+
+Function Addresses:
+main:        00000000000013d6
+num_words:   0000000000001219
+count_words: 000000000000128c
